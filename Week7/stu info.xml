@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+
+<!DOCTYPE StudentInfo
+[
+ <!ELEMENT StudentInfo (student)+>
+ <!ELEMENT student (sid,sname,phnum,addr,res)>
+ <!ELEMENT sid (#PCDATA)>
+ <!ELEMENT sname (#PCDATA)>
+ <!ELEMENT phnum (#PCDATA)>
+ <!ELEMENT addr (area,city)>
+ <!ELEMENT area (#PCDATA) >
+ <!ELEMENT city (#PCDATA) >
+ <!ELEMENT res (sgpa)>
+ <!ELEMENT sgpa (#PCDATA)>
+ <!ATTLIST sname lname  CDATA  #REQUIRED >
+ <!ATTLIST res cgpa CDATA  #REQUIRED >
+]>
+ 
+<!--Student Details-->
+<StudentInfo>
+   <student>
+       <sid>1201</sid>
+	   <sname lname="Doe">John</sname>
+        <phnum>9988664422</phnum>
+        <addr>
+            <area>Dolphin Heights</area>
+            <city>Vizianagaram </city> 
+        </addr>
+        <res cgpa="9.0"> 
+		     <sgpa>8.9</sgpa>
+		</res>
+    </student>
+	
+	<student>
+       <sid>1202</sid>
+	   <sname lname="jill">jack</sname>
+        <phnum>9658743521</phnum>
+        <addr>
+            <area>Vasanth Vihar</area>
+            <city>Vizianagaram </city> 
+        </addr>
+        <res cgpa="9.22"> 
+		     <sgpa>9.01</sgpa>
+		</res>
+    </student>
+	
+	<student>
+       <sid>1203</sid>
+	   <sname lname="Vendra">Himaja</sname>
+        <phnum>9133663477</phnum>
+        <addr>
+            <area>MVP colony</area>
+            <city>Vishakapatnam</city> 
+        </addr>
+        <res cgpa="8.7"> 
+		     <sgpa>8.4</sgpa>
+		</res>
+    </student>
+	
+	<student>
+       <sid>1204</sid>
+	   <sname lname="kandula">Roshini</sname>
+        <phnum>9536663407</phnum>
+        <addr>
+            <area>NAD</area>
+            <city>Vishakapatnam</city> 
+        </addr>
+        <res cgpa="8.6"> 
+		     <sgpa>7.5</sgpa>
+		</res>
+    </student>
+	
+	<student>
+       <sid>1205</sid>
+	   <sname lname="jasmine">Mary</sname>
+        <phnum>6503981272</phnum>
+        <addr>
+            <area>Gajuwaka</area>
+            <city>Vishakapatnam</city> 
+        </addr>
+        <res cgpa="6.5"> 
+		     <sgpa>7.0</sgpa>
+		</res>
+    </student>
+</StudentInfo>
+	
+
+    	
+			
+        
