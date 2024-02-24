@@ -20,7 +20,7 @@
 <StudentInfo>
    <student>
        <sid>1201</sid>
-	   <sname lname="Doe">John</sname>
+	   <sname lname="Roshini">John</sname>
         <phnum>9988664422</phnum>
         <addr>
             <area>Dolphin Heights</area>
